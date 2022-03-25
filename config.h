@@ -11,9 +11,9 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 //PLACE-COLORS-HERE
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#cbc7c4", "#140e11" },
-	[SchemeSel] = { "#cbc7c4", "#675D51" },
-	[SchemeOut] = { "#cbc7c4", "#6D7886" },
+	[SchemeNorm] = { "#e8ede1", "#13110f" },
+	[SchemeSel] = { "#e8ede1", "#60A2AD" },
+	[SchemeOut] = { "#e8ede1", "#A9EAE9" },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
