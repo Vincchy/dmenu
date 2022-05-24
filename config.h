@@ -4,16 +4,16 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+	"JetBrains Mono:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 //PLACE-COLORS-HERE
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#e8ede1", "#13110f" },
-	[SchemeSel] = { "#e8ede1", "#60A2AD" },
-	[SchemeOut] = { "#e8ede1", "#A9EAE9" },
+	[SchemeNorm] = { "#e6e4e3", "#352231" },
+	[SchemeSel] = { "#e6e4e3", "#FBD78B" },
+	[SchemeOut] = { "#e6e4e3", "#C9B3E2" },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
